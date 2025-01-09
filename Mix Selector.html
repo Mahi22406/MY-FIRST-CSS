@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: darkslateblue;">Mixed Selectors</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        li{
+            font-style: italic;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        p{
+            background-color: black;
+            color: aliceblue;
+        }
+        #kire{
+            font-style: italic;
+            font-weight: lighter;
+        }
+        .bhai{
+            font-weight: lighter;
+            color: brown;
+            font-size: 50px;
+        }
+        .beda{
+            font-weight: 900;
+        }
+        .what{
+            background-color: brown;
+        }
+        input[type="password"]{
+            color: aliceblue;
+            background-color: black;
+        }
+        input[type="email"]{
+            background-color: black;
+            color: azure;
+        }
+        .hulu{
+            color: brown;
+            font-style: italic;
+            font-weight: bolder;
+        }
+        #blog{
+            background-color:red;
+        }
+    </style>
+    
+</head>
+<body>
+    <h3>Exploring Mixed selectors</h3>
+    <p class="bhai beda">My first line CSS</p>
+    <p>My Second line CSS</p>
+    <p id="kire">My Third line CSS</p>
+    <p>My fifth line CSS</p>
+    <p class="bhai">My <span class="hulu">sixth</span> line CSS</p>
+    <p>My seventh line CSS</p>
+    <ol>
+        <li>kire</li>
+        <li class="what">Hoit</li>
+        <li>Bhala</li>
+        <li class="what">Asos</li>
+        <li>shei</li>
+    </ol>
+    <form action="">
+        <input type="email" placeholder="Email" name="" id="">
+        <input type="password" placeholder="password" name="" id="">
+        <input type="checkbox" name="" id="">
+        <select name="" id="">
+            <option value="male">Male</option>
+            <option value="Female">female</option>
+        </select>
+    </form>
+    <div id="blog">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa saepe voluptatum, numquam, totam architecto eos ullam rerum ipsum itaque voluptatibus tempora facere, repellendus ea ab consequatur rem vel! Ipsam!</p>
+    </div>
+    
+</body>
+</html>

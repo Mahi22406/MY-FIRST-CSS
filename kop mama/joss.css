@@ -1,0 +1,12 @@
+.joss{
+    background-color: aqua;
+
+}
+
+.oree{
+    height: 500px;
+    background-image: url('../Style/download\ \(1\).jpg');
+    /* background-repeat: no-repeat; */
+    background-position: 100px;
+    box-shadow: 100px 200;
+}

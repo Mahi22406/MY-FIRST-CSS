@@ -1,0 +1,39 @@
+h3{
+color: green;    /* background-color: blue; */
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.Blog{
+    border: 10px solid green;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px
+    font-famil
+
+    /* display: none; */
+    /* visibility: hidden; */
+
+}
+.kire{
+    margin: 2px;
+    border: 2px solid yellowgreen;
+    height: 60px;
+    /* display: block; */
+    display: inline-block;
+}
+.Bhai{
+    margin: 20px;
+    padding: 20px;
+    border: 400px;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-image:url('Screenshot\ 2025-01-08\ 105731.png') ;
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-image: url('../Style/Screenshot\ 2025-01-08\ 105731.png')
+    background-size: 200px;
+
+}
